@@ -36,4 +36,8 @@ public class Task {
         this.completed = true;
     }
 
+    public void reopenTask(){
+        this.completed = false;
+    }
+
 }
